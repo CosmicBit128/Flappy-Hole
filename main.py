@@ -178,7 +178,7 @@ class Engine():
 						write_bin_file('settings.dat', f'53 45 54 54 00 00 48 49 {str(game.flappy.score.to_bytes(4, 'big')).replace('\\x', '').replace('b', '').replace('\'', '')} 4E 4D {'0' + str(int(night_mode))} 53 46 58 01')
 						
 				if pygame.Rect(eng.x_center + win_params['width'] // 2 + 4, eng.y_center + 366, 80, 28).collidepoint(pygame.mouse.get_pos()) and game_state == 0:
-					webbrowser.open('https://jas488.itch.io/flappy-hole')
+					webbrowser.open('https://CosmicByte128.itch.io/flappy-hole')
 				
 
 				# This was meant to be a whole sharing feature, but it was too complicated and
